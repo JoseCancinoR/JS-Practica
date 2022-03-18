@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/pokedex.css">
+    <title>Pokedex</title>
+</head>
+
+<body>
+    <section>
+        <div id="contenido">
+            <div class="contenido-main">
+                <div class="caja-top">
+                    <p>#000</p>
+                    <p>-Desconocido</p>
+                </div>
+
+                <img src="assets/img/sad-pikachu.gif" alt="pokefoto" id="pokeImg">
+            </div>
+
+            <div class="caja-down">
+                <p class="type"><label>Tipo: </label>Desconocido</p>
+                <p class="stats"><label>Estadisticas: </label>Desconocido</p>
+                <p class="mov"><label>Movimientos: </label>Desconocido</p>
+            </div>
+        </div>
+
+        <div class="caja-buscar">
+            <input type="text" placeholder="Ingresa" name="pokeName" id="pokeName">
+            <button onclick="fetchPokemon()" class="btn-buscar"></button>
+        </div>
+    </section>
+
+</body>
+<footer>
+    <script src="assets/js/pokedex.js"></script>
+</footer>
+
+</html>
